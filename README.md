@@ -20,7 +20,7 @@ This project demonstrates implementing JWT (JSON Web Token) authentication in a 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/dotnet-jwt-demo.git
+   git clone https://github.com/moclananh/Demo_JWT
    cd dotnet-jwt-demo
    ```
 
@@ -29,23 +29,12 @@ This project demonstrates implementing JWT (JSON Web Token) authentication in a 
    dotnet restore
    ```
 
-3. **Configure AppSettings**:
-   Update the `appsettings.json` file with your secret key and token expiration settings:
-   ```json
-   "JwtSettings": {
-     "Secret": "YourSecretKeyHere",
-     "Issuer": "YourIssuer",
-     "Audience": "YourAudience",
-     "ExpirationMinutes": 60
-   }
-   ```
-
-4. **Run the Application**:
+3. **Run the Application**:
    ```bash
    dotnet run
    ```
 
-5. **Test the Endpoints**:
+4. **Test the Endpoints**:
    Use tools like Postman or cURL to test authentication and secured routes.
 
 ## How It Works
